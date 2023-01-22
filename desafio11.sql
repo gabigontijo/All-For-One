@@ -1,0 +1,1 @@
+SELECT notes FROM purchase_orders WHERE notes <> 'null' ORDER BY notes ASC LIMIT 5;
